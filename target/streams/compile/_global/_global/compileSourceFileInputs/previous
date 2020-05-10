@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.12.10":{"hashes":[["/home/yamashita/N-School/Factorization.scala","df0545d8a08bc24f1180d74c66a5f417be35f4c0"]],"lastModifiedTimes":[]}}]
