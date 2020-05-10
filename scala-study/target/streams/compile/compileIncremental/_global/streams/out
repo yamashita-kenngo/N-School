@@ -1,7 +1,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/yamashita/N-School/scala-study/Factorial.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/yamashita/N-School/scala-study/Factorization.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
@@ -13,25 +13,25 @@
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/yamashita/N-School/scala-study/Factorial.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/yamashita/N-School/scala-study/Factorization.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
 [0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/yamashita/N-School/scala-study/target/scala-2.12/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.5:compile for Scala 2.12.10[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.5:compile for Scala 2.12.10[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 17862853 for Scala compiler version 2.12.10[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 7e53c84e for Scala compiler version 2.12.10[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/yamashita/.sbt/boot/scala-2.12.10/lib/scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/yamashita/N-School/scala-study/target/scala-2.12/classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.4838158 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.8035705 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone compiling.[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Factorial...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Factorial[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Factorial)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Factorial,ModifiedNames(changes = UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(finalize,[Default]), UsedName($asInstanceOf,[Default]), UsedName(Factorial,[Default]), UsedName(==,[Default]), UsedName(factorial,[Default]), UsedName(ne,[Default]), UsedName(synchronized,[Default]), UsedName(eq,[Default]), UsedName(isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(delayedInit,[Default]), UsedName(##,[Default]), UsedName(args,[Default]), UsedName(notify,[Default]), UsedName(main,[Default]), UsedName(executionStart,[Default]), UsedName(asInstanceOf,[Default]), UsedName($isInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(equals,[Default]), UsedName(notifyAll,[Default]), UsedName(wait,[Default]), UsedName($init$,[Default]), UsedName(hashCode,[Default]))) invalidates 1 classes due to The Factorial has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(finalize,[Default]), UsedName($asInstanceOf,[Default]), UsedName(Factorial,[Default]), UsedName(==,[Default]), UsedName(factorial,[Default]), UsedName(ne,[Default]), UsedName(synchronized,[Default]), UsedName(eq,[Default]), UsedName(isInstanceOf,[Default]), UsedName(getClass,[Default]), UsedName(delayedInit,[Default]), UsedName(##,[Default]), UsedName(args,[Default]), UsedName(notify,[Default]), UsedName(main,[Default]), UsedName(executionStart,[Default]), UsedName(asInstanceOf,[Default]), UsedName($isInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(equals,[Default]), UsedName(notifyAll,[Default]), UsedName(wait,[Default]), UsedName($init$,[Default]), UsedName(hashCode,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Factorial)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Factorization...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Factorization[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Factorization)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Factorization,ModifiedNames(changes = UsedName(main,[Default]), UsedName(toString,[Default]), UsedName($asInstanceOf,[Default]), UsedName(args,[Default]), UsedName(finalize,[Default]), UsedName(hashCode,[Default]), UsedName(executionStart,[Default]), UsedName(==,[Default]), UsedName(synchronized,[Default]), UsedName(maxDivisor,[Default]), UsedName(Factorization,[Default]), UsedName(equals,[Default]), UsedName(notifyAll,[Default]), UsedName(##,[Default]), UsedName(delayedInit,[Default]), UsedName($isInstanceOf,[Default]), UsedName(target,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(isInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(notify,[Default]), UsedName($init$,[Default]), UsedName(getClass,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName(ne,[Default]))) invalidates 1 classes due to The Factorization has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(main,[Default]), UsedName(toString,[Default]), UsedName($asInstanceOf,[Default]), UsedName(args,[Default]), UsedName(finalize,[Default]), UsedName(hashCode,[Default]), UsedName(executionStart,[Default]), UsedName(==,[Default]), UsedName(synchronized,[Default]), UsedName(maxDivisor,[Default]), UsedName(Factorization,[Default]), UsedName(equals,[Default]), UsedName(notifyAll,[Default]), UsedName(##,[Default]), UsedName(delayedInit,[Default]), UsedName($isInstanceOf,[Default]), UsedName(target,[Default]), UsedName(eq,[Default]), UsedName(asInstanceOf,[Default]), UsedName(isInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(notify,[Default]), UsedName($init$,[Default]), UsedName(getClass,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName(ne,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Factorization)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m        [0m

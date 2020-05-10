@@ -1,2 +1,4 @@
 sbt run
 run
+runMain Factorization
+ls
