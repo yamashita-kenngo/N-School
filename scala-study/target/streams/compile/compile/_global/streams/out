@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/yamashita/N-School/scala-study/Factorization.scala:16:9: not found: value map[0m
+[0m[[0m[31merror[0m] [0m[0m        map(2 -> 3, 3 -> 1)[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
